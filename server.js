@@ -4,7 +4,7 @@ let express = require("express"); //we are putting the libriary in a var, expres
 
 let app = express(); //app is the reslut of running the express funtion created before
 
-let port = 3000;
+let port = process.env.PORT || 3000; //o uso porta process.env.Port x heroku oppure uso 3000 per il local host così può funzionare sia local che heroku
 
 let server = app.listen(port); //the connection will happen on the port 3000
 
