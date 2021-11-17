@@ -1,0 +1,23 @@
+{
+  "name": "p5-node-lesson",
+  "version": "1.0.0",
+  "description": "my first node app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romariomuca/p5-node-lesson.git"
+  },
+  "author": "Romario Muça",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romariomuca/p5-node-lesson/issues"
+  },
+  "homepage": "https://github.com/romariomuca/p5-node-lesson#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
